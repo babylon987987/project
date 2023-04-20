@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1920px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 24 px;
+}
+ul {
+    list-style: none;
+}
+header {
+    margin-bottom: 71.5px;
+}
+.header-top .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.header-info {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-bottom .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+button {
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 4px;
+}
+a {
+    color: #4788F5;
+    text-decoration: none;
+}
+.header-shop {
+    color: #111212;
+    
+}
+.header-about {
+    color: #111212;
+    padding-left: 40px;
+}
+main {
+    border-bottom: 1px solid;
+    padding-bottom: 120px;
+}
+.main-subtitle {
+    font-size: 12px;
+    line-height: 1, 33;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.main-title {
+    font-size: 42px;
+    line-height: 1;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 95px;
+}
+
+.main-title span {
+    color: #D476F8;
+    font-size: 72px;
+    font-family: 'Yesteryear', cursive;
+
+}
+.catalog-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.catalog-sort-container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.catalog-sort-types {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 1.25%;
+}
+
+.catalog-item {
+    width: 19%;
+    height: 398px;
+    background-color: rgb(189, 107, 107);
+    display: flex;
+}
+
+.catalog-sort {
+    position: relative;
+    }
+
+.main-button {
+    margin: 0 auto;
+    display: block;
+}
+
+.footer .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.footer-socials {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+.footer-categories {
+    color: #111212;  
+}
+.footer-info ul {
+    color: #111212;  
+}
